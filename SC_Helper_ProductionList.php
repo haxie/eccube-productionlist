@@ -42,7 +42,7 @@ class SC_Helper_ProductionList {
                           AND C.quantity        > 0
                           AND C.product_id      = D.product_id
 
-                          AND D.product_id  IN (SELECT DISTINCT product_id FROM dtb_product_categories WHERE category_id NOT IN (10,29,41,27) ) ";
+                          AND D.product_id  IN (SELECT DISTINCT product_id FROM dtb_product_categories ) ";
 
         $arrResults = $this->findLists($sel, $from, $where);
 

@@ -28,4 +28,4 @@ $objProd->downloadMPDF($html, 'Test PDF');
 | Category Name     | 20  |
 | Category Name 2   | 18  |
 | Category Name 3   | 3   |
-| **合計台数**          | 41  |
+| **合計台数**          | **41**  |

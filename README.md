@@ -1,6 +1,6 @@
 # ECCube Production List
 
-Custom ECCube class to prepare order data for a production list.
+Custom ECCube class to prepare order data for a production list. Uses mPDF as default.
 
 ### Usage
 
@@ -29,4 +29,4 @@ $objProd->downloadMPDF($html, 'Test PDF');
 | Category Name 2   | 18  |
 | Category Name 3   | 3   |
 |                   |     |
-| 合計台数          | 41  |
+| *合計台数          | 41  |
